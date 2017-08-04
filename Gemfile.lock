@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    psych (2.2.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  psych
+
+BUNDLED WITH
+   1.13.1

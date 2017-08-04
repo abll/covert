@@ -1,0 +1,23 @@
+--- 
+? "Test Secret"
+: 
+  ? "Nested Secret"
+  : 
+    ? "Super Nested Secret"
+    : 
+      password: justkiddingyousuck
+      username: bestdeveever
+    password: nowhere
+    username: gothere
+  password: gettingbetter
+  username: baddeveloper
+
+Test Secret:
+  username: 'baddeveloper'
+  password: 'gettingbetter'
+  Nested Secret:
+    username: 'gothere'
+    password: 'nowhere'
+    Super Nested Secret:
+      username: 'bestdeveever'
+      password: 'justkiddingyousuck'
