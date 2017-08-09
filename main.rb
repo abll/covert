@@ -18,14 +18,14 @@ else
         covert_reader.dump_tree
     when '-ppt'
         covert_reader.pretty_print_tree
-    when '-pvt'
-        covert_reader.print_value_tree
-    when '-f'
+    when '-pqs'
         if(ARGV[1].nil?)
-            puts "No Search Query Entered"
+            puts "No Query String Entered"
         else
-            puts covert_reader.find_1(ARGV[1].to_s)
+            covert_reader.process_query_string(ARGV[1].to_s)
         end
+    when '-f'
+        puts covert_reader.find(ARGV[1].to_s)
     else
         puts "Incorrect Parameters Passed"
     end
